@@ -91,6 +91,7 @@ body {font-family: "Quattrocento Sans";}
     margin-left: 5%;
     margin-right: 5%;
     flex-direction: column;
+    border-radius: 5%;
 }
 
 .date_selection_list_group_container{
@@ -99,4 +100,33 @@ body {font-family: "Quattrocento Sans";}
     margin-left: 5%;
     margin-right: 5%;
     font-family: "Quattrocento Sans";
+}
+
+.list-group{
+  width: 100%;
+  background-color: #7EC4E8;
+}
+
+.confirm_button_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  
+}
+
+.navbar_container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*****************************************************Confirm_appointment_styles_here*********************************************************************/
+.confirmed_card_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+}
+
+.confirmed_card{
+  text-align: center;
 }
